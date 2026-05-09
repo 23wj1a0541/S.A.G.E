@@ -30,7 +30,7 @@ export default function LandingHero() {
               Initialize Demo
             </a>
             <a
-              href="https://github.com/Mahesh91-bot/code_review_agent"
+              href="https://github.com/23wj1a0541/S.A.G.E"
               target="_blank"
               rel="noopener noreferrer"
               className="glass-panel ghost-border flex w-full items-center justify-center gap-2 rounded-sm px-8 py-4 font-headline text-lg font-bold text-zinc-900 transition-all hover:bg-zinc-100/80 sm:w-auto dark:text-on-surface dark:hover:bg-surface-variant/60"
