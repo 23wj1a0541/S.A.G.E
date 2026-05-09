@@ -1,7 +1,7 @@
-export const API_BASE_URL = "http://localhost:3001";
+export const API_BASE_URL = "https://s-a-g-e.onrender.com";
 
 /** Absolute URL for feedback so submissions always hit the Express API (avoids relative /api on Vite). */
-export const FEEDBACK_API_URL = "http://localhost:3001/api/feedback";
+export const FEEDBACK_API_URL = "https://s-a-g-e.onrender.com/api/feedback";
 
 export const TEAM_NAME_STORAGE_KEY = "sage_team_name";
 
