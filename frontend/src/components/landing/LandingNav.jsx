@@ -43,7 +43,7 @@ export default function LandingNav() {
             Hindsight
           </a>
           <a
-            href="https://github.com/Mahesh91-bot/code_review_agent"
+            href="https://github.com/23wj1a0541/S.A.G.E"
             target="_blank"
             rel="noopener noreferrer"
             className="scale-95 font-['Inter'] text-xs font-bold uppercase tracking-tight text-zinc-600 transition-transform hover:text-emerald-600 active:scale-100 dark:text-[#b9ccb2] dark:hover:text-[#00FF41]"
