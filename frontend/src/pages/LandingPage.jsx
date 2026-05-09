@@ -12,7 +12,7 @@ export default function LandingPage() {
   return (
     <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-zinc-100 text-zinc-900 selection:bg-emerald-200 selection:text-zinc-900 dark:bg-surface dark:text-on-surface dark:selection:bg-primary-container dark:selection:text-on-primary-fixed">
       <LandingNav />
-      <main className="flex-grow">
+      <main className="flex-grow pt-20">
         <LandingHero />
         <LandingFeatures />
         <LandingBento />

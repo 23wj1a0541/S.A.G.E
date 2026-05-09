@@ -64,6 +64,15 @@
 @layer base {
   html {
     @apply antialiased;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  main [id] {
+    scroll-margin-top: 5.5rem;
   }
   body {
     @apply min-h-screen bg-zinc-50 font-body text-zinc-900 dark:bg-surface dark:text-on-surface;

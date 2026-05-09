@@ -5,10 +5,17 @@ export default function LandingPersona() {
         <div className="relative">
           <img
             alt="Server room with abstract green data streams"
-            className="aspect-square w-full rounded-xl object-cover opacity-60 grayscale contrast-125 filter"
+            className="aspect-square w-full rounded-xl object-cover opacity-100 contrast-100 filter dark:opacity-60 dark:grayscale dark:contrast-125"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnI62Bfz68_rsM9xdDUOG-xxiUCCPRUnKBchW9MFdgOqibnjT05Q77TBEUJ5OjZeVaIiuv0BLL95tHN-Mo7XvViVUah2AwmnlFVZVbjymVpTyz5iucTnoGBsUK6vxhMOcv7C6tkI7TMlUjEDbF7bgCdPo32rYIcdSXUZV1X2b949mYDOtouhrUpIZGZH5_mRlv0F3DnD4gnUbxenHiABX1vsrQVj7XdBA3lhMU672qT2gUwHJy9HRvBRX0Eu9XGgs3mHIC-7XRjRAR"
           />
-          <div className="absolute inset-0 rounded-xl bg-primary-container/10 mix-blend-overlay" />
+          <div
+            className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-br from-emerald-600/[0.14] via-emerald-800/[0.04] to-zinc-800/[0.08] dark:hidden"
+            aria-hidden
+          />
+          <div
+            className="pointer-events-none absolute inset-0 hidden rounded-xl bg-primary-container/10 mix-blend-overlay dark:block"
+            aria-hidden
+          />
           <div className="glass-panel ghost-border glow-shadow absolute -bottom-8 -left-8 rounded-lg p-6">
             <div className="font-label mb-1 text-xs text-emerald-600 dark:text-primary-container">
               PERSONA ACTIVE

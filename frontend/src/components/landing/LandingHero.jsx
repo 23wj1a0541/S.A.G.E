@@ -1,6 +1,9 @@
 export default function LandingHero() {
   return (
-    <section className="relative flex min-h-[921px] items-center justify-center overflow-hidden bg-zinc-100 bg-grid-pattern pb-32 pt-20 dark:bg-surface-container-lowest">
+    <section
+      id="product"
+      className="relative flex min-h-[921px] items-center justify-center overflow-hidden bg-zinc-100 bg-grid-pattern pb-32 pt-12 dark:bg-surface-container-lowest md:pt-16"
+    >
       <div className="pointer-events-none absolute left-[-8rem] top-1/4 h-96 w-96 rounded-full bg-emerald-500/10 blur-3xl mix-blend-multiply dark:bg-primary-container/5 dark:mix-blend-screen" />
       <div className="pointer-events-none absolute bottom-1/4 right-[-8rem] h-[500px] w-[500px] rounded-full bg-emerald-400/15 blur-[100px] mix-blend-multiply dark:bg-primary-container/10 dark:mix-blend-screen" />
       <div className="relative z-10 mx-auto grid w-full max-w-[1440px] grid-cols-1 items-center gap-12 px-8 lg:grid-cols-12">
@@ -22,7 +25,7 @@ export default function LandingHero() {
           </p>
           <div className="flex w-full flex-col items-center gap-6 sm:w-auto sm:flex-row">
             <a
-              href="https://youtube.com/watch?v=YOUR_VIDEO_ID"
+              href="https://www.youtube.com/watch?v=VoJzTkmj8QM"
               target="_blank"
               rel="noopener noreferrer"
               className="gradient-cta w-full rounded-sm px-10 py-4 text-center font-headline text-lg font-bold text-on-primary-fixed shadow-md shadow-emerald-500/25 transition-all hover:brightness-110 dark:shadow-[0_0_20px_rgba(0,255,65,0.3)] sm:w-auto"

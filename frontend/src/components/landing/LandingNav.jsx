@@ -3,7 +3,7 @@ import ThemeToggle from "../ThemeToggle";
 
 export default function LandingNav() {
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-zinc-200/80 bg-white/80 shadow-sm backdrop-blur-md dark:border-[#0e0e10]/50 dark:bg-zinc-950/80 dark:shadow-[0px_20px_40px_rgba(0,255,65,0.04)] dark:backdrop-blur-xl">
+    <nav className="fixed inset-x-0 top-0 z-50 w-full border-b border-zinc-200/80 bg-white/90 shadow-sm backdrop-blur-md dark:border-[#0e0e10]/50 dark:bg-zinc-950/90 dark:shadow-[0px_20px_40px_rgba(0,255,65,0.04)] dark:backdrop-blur-xl">
       <div className="relative mx-auto flex max-w-[1440px] items-center justify-between gap-4 px-4 py-4 sm:px-8">
         <Link
           to="/"
@@ -17,13 +17,12 @@ export default function LandingNav() {
           </span>
         </Link>
         <div className="hidden items-center space-x-8 md:flex">
-          <button
-            type="button"
-            onClick={() => console.log("TODO: Implement [Product]")}
+          <a
+            href="#product"
             className="scale-95 font-['Inter'] text-xs font-bold uppercase tracking-tight text-zinc-600 transition-transform hover:text-emerald-600 active:scale-100 dark:text-[#b9ccb2] dark:hover:text-[#00FF41]"
           >
             Product
-          </button>
+          </a>
           <a
             href="#features"
             className="scale-95 font-['Inter'] text-xs font-bold uppercase tracking-tight text-zinc-600 transition-transform hover:text-emerald-600 active:scale-100 dark:text-[#b9ccb2] dark:hover:text-[#00FF41]"
