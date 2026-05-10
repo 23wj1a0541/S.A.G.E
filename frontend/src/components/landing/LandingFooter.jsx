@@ -8,7 +8,7 @@ export default function LandingFooter() {
           <div className="text-lg font-bold text-emerald-600 dark:text-[#00FF41]">SAGE</div>
           <div className="flex items-center gap-3">
             <a
-              href="https://linkedin.com/in/YOUR_LINK"
+              href="https://www.linkedin.com/posts/kuldeepcreddy_i-gave-my-code-reviewer-long-term-memory-share-7451453383145848832-qAnH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0wjRUBiFWzoCt_Kd5XuqfR5mFaS0hl99s"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-700 transition-colors hover:border-emerald-500 hover:text-emerald-600 dark:border-outline-variant/30 dark:bg-surface-container-high dark:text-on-surface dark:hover:border-primary-container dark:hover:text-primary-container"
@@ -17,7 +17,7 @@ export default function LandingFooter() {
               <Linkedin className="h-5 w-5" strokeWidth={2} />
             </a>
             <a
-              href="https://medium.com/@YOUR_LINK"
+              href="https://medium.com/@kuldeepcreddy/i-gave-my-code-reviewer-long-term-memory-with-hindsight-3bac42f8a1db"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-300 bg-white text-zinc-700 transition-colors hover:border-emerald-500 hover:text-emerald-600 dark:border-outline-variant/30 dark:bg-surface-container-high dark:text-on-surface dark:hover:border-primary-container dark:hover:text-primary-container"
